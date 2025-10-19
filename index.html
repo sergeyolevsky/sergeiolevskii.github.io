@@ -1,52 +1,147 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Sergei Olevskii</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sergei Olevskii — Финтех и международные платежи</title>
   <style>
-    body { font-family: Arial; max-width: 800px; margin: 40px auto; line-height: 1.6; }
-    h1 { text-align: center; }
-    img { display: block; margin: 20px auto; width: 150px; border-radius: 50%; }
-    a { color: #1a0dab; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .article { border-top: 1px solid #ccc; margin-top: 20px; padding-top: 10px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .article {
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    .description {
+      font-size: 15px;
+      color: #555;
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Sergei Olevskii</h1>
- 
-  
-  <p>Родился в Москве в 1976 году. Играл в хоккей за юношескую команду «Спартак». Учился в США и Канаде, проходил программы в Оксфорде. Жил и работал в Нигерии, участвовал в горнорудном проекте.</p>
-  
-  <p>Специалист с 15-летним опытом в области денежных переводов и платежей. Работал в рабочей группе при подготовке 161-ФЗ о национальной платежной системе и в системах Юнистрим, Лидер, Trassfast и Earthport. Trassfast был куплен Mastercard, после чего год работал в экосистеме Mastercard.</p>
-  
-  <p>Контакты: 
-    <a href="https://www.linkedin.com/in/sergei-olevskii-b6154015" target="_blank">LinkedIn</a> | 
-    <a href="https://t.me/solevsky" target="_blank">Telegram</a>
-  </p>
+  <header>
+    <h1>Sergei Olevskii</h1>
+    <p>Финтех • Международные платежи • Африка</p>
+  </header>
 
-  <h2>Статьи</h2>
+  <main>
+    <h2>Обо мне</h2>
+    <p>
+      Родился в Москве в 1976 году. Играл в хоккей за юношескую команду «Спартак».
+      Учился в США и Канаде, проходил программы в Оксфорде.
+    </p>
+    <p>
+      Более 15 лет опыта в сфере международных денежных переводов и платёжных систем.
+      Участвовал в рабочей группе при разработке Федерального закона № 161-ФЗ
+      «О национальной платёжной системе».
+    </p>
+    <p>
+      Работал в российских и международных компаниях:
+      <ul>
+        <li>Юнистрим и Лидер (Россия)</li>
+        <li>Transfast (США)</li>
+        <li>Valutrans Spa (Италия)</li>
+        <li>Консультант в Earthport (Великобритания)</li>
+      </ul>
+    </p>
+    <p>
+      После приобретения Transfast корпорацией Mastercard продолжил работу
+      в экосистеме Mastercard, отвечая за Восточную Европу.
+      Жил и работал в Нигерии, участвуя в горнорудном проекте.
+    </p>
 
-  <div class="article">
-    <h3>Финтех и международные платежи</h3>
-    <p>Описание статьи или ссылка на отдельную страницу.</p>
-  </div>
+    <h2>Статьи</h2>
 
-  <div class="article">
-    <h3>Падежные системы</h3>
-    <p>Описание статьи или ссылка на отдельную страницу.</p>
-  </div>
+    <div class="article">
+      <h3><a href="fintech.html">Финтех и международные платежи</a></h3>
+      <p class="description">
+        О том, как международные переводы перестали быть просто оплатой товаров
+        и услуг, превратившись в сложную систему с рисками мискодинга, скрытых потоков
+        и необходимостью жёсткого регулирования.
+      </p>
+    </div>
 
-  <div class="article">
-    <h3>Санкции</h3>
-    <p>Описание статьи или ссылка на отдельную страницу.</p>
-  </div>
+    <div class="article">
+      <h3><a href="#">Платёжные системы (в разработке)</a></h3>
+      <p class="description">Будет добавлено позже.</p>
+    </div>
 
-  <div class="article">
-    <h3>Нигерия и сырьевой бизнес</h3>
-    <p>Описание статьи или ссылка на отдельную страницу.</p>
-  </div>
+    <div class="article">
+      <h3><a href="#">Санкции и регулирование (в разработке)</a></h3>
+      <p class="description">Будет добавлено позже.</p>
+    </div>
+
+    <div class="article">
+      <h3><a href="#">Нигерия и сырьевой бизнес (в разработке)</a></h3>
+      <p class="description">Будет добавлено позже.</p>
+    </div>
+
+    <h2>Контакты</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/sergei-olevskii-b6154015" target="_blank">LinkedIn</a> |
+      <a href="https://t.me/solevsky" target="_blank">Telegram</a>
+    </p>
+  </main>
+
+  <footer>
+    © 2025 Sergei Olevskii
+  </footer>
 
 </body>
 </html>
